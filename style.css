@@ -52,13 +52,13 @@ body {
 }
 
 .card_title {
-  margin: 30px;
+  margin: 30px 30px 0px 30px;
   font-size: var(--fs-title);
   color: var(--color-accent);
 }
 
 .card_desc {
-  margin: 0px 30px 20px 30px;
+  margin: 10px 30px 10px 30px;
   line-height: 1.5;
   font-size: var(--fs-body);
   color: var(--color-primary);
@@ -70,10 +70,10 @@ body {
   align-items: center;
   padding: 8px 20px 8px 20px;
   gap: 16px;
-  border-top: 1px solid #eee;
 }
 
 .author_info {
+  padding: 0px 10px 10px 10px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -153,6 +153,15 @@ body {
 }
 
 @media (min-width: 768px) {
+  .card {
+    display: flex;
+    gap: 30px;
+  }
+  .card_media {
+    width: 100%;
+    height: auto;
+  }
+
   .share-panel {
     width: auto;
     height: auto;
